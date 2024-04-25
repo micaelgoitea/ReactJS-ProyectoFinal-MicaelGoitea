@@ -5,7 +5,7 @@ function App() {
   return (
     <div>
       <Navbar/>
-      <ItemListContainer cantidad="dos" nombreProdcuto="iPhone" />
+      <ItemListContainer/>
     </div>
 )
 }
