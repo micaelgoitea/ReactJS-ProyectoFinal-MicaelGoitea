@@ -1,14 +1,17 @@
-import Item from "./Item";
+import Item from "./ItemDetail";
+import './ItemList.css';
 
 const ItemList = ({ items }) => {
-    return (
-        <div className="item-list">
-            <h2>Lista de Productos</h2>
-            {items.map(item => (
-                <Item key = {item.id} item = {item} />
-            ))}
-        </div>
-    )
+  return (
+    <>
+      <h3>Lista de productos</h3>
+      <div className="item-list">
+        {items.map(item => (
+          <Item key={item.id} item={item} />
+        ))}
+      </div>
+    </>
+  )
 };
 
 export default ItemList;

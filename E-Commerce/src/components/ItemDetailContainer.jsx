@@ -5,19 +5,19 @@ const fetchItems = () => {
   return new Promise((resolve) => {
     setTimeout(() => {
       resolve([
-        { id: 1, name: 'PC de Escritorio', price: 10 },
-        { id: 2, name: 'PC Gamer', price: 20 },
-        { id: 3, name: 'Notebook', price: 30 },
-        { id: 4, name: 'Netbook', price: 40 },
-        { id: 5, name: 'Notebook', price: 50 },
-        { id: 6, name: 'Tablet', price: 60 }
+        { id: 1, name: 'PC de Escritorio', imageUrl: "https://picsum.photos/200", price: 10 },
+        { id: 2, name: 'PC Gamer', imageUrl: "https://picsum.photos/200", price: 20 },
+        { id: 3, name: 'Notebook', imageUrl: "https://picsum.photos/200", price: 30 },
+        { id: 4, name: 'Netbook', imageUrl: "https://picsum.photos/200", price: 40 },
+        { id: 5, name: 'Notebook', imageUrl: "https://picsum.photos/200", price: 50 },
+        { id: 6, name: 'Tablet', imageUrl: "https://picsum.photos/200", price: 60 }
         ]
       )
     }, 3000)
   })
 };
 
-const ItemListContainer = () => {
+const ItemDetailContainer = () => {
   const [items, setItems] = useState([]);
   const [loading, setLoading] = useState(true);
 
@@ -43,4 +43,4 @@ const ItemListContainer = () => {
   )
 };
   
-  export default ItemListContainer;
+  export default ItemDetailContainer;
