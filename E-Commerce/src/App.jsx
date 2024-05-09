@@ -6,6 +6,8 @@ import Cart from "./components/Cart";
 import Ofertas from "./components/Ofertas";
 import Product from "./components/Product";
 import NotFound from "./components/Notfound";
+import Contacto from "./components/Contacto";
+import InfoNosotros from "./components/Info";
 
 function App() {
   return (
@@ -17,6 +19,8 @@ function App() {
         <Route path="/product/:productId" element={<Product />} />
         <Route exact path="/cart" element={<Cart />} />
         <Route exact path="/ofertas" element={<Ofertas />} />
+        <Route exact path="/contacto" element={<Contacto />} />
+        <Route exact path="/info" element={<InfoNosotros />} />
         <Route exact path="*" element={<NotFound />} />
       </Routes>
     </>

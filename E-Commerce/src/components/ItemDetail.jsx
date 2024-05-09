@@ -8,14 +8,7 @@ const Item = ({ item }) => {
       <div className="item-details">
         <h3 className="item-name">{item.name}</h3>
         <p className="item-price">Precio: ${item.price}</p>
-        <NavLink
-          to={{
-            pathname: `/product/${item.id}`,
-            state: { item: item }
-          }}
-        >
-          <button> Ver Detalles </button>
-        </NavLink>
+        <NavLink to={`/product/${item.id}`} > <button> Ver Detalles </button> </NavLink>
       </div>
     </div>
   )

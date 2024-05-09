@@ -7,7 +7,7 @@ const Navbar = () => {
     <>
       <nav className="navbar navbar-expand-lg bg-body-tertiary">
         <div className="container-fluid">
-          <a className="navbar-brand" href="#"><img width={100} src="img/logo.png" alt="" /></a>
+          <Link to="/" className="navbar-brand"><img width={100} src="img/logo.png" alt="" /></Link>
           <button className="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarNavDropdown" aria-controls="navbarNavDropdown" aria-expanded="false" aria-label="Toggle navigation">
             <span className="navbar-toggler-icon"></span>
           </button>
@@ -31,7 +31,7 @@ const Navbar = () => {
               <Link to="/contacto" className="nav-link active" aria-current="page">Contacto</Link>
               </li>
               <li className="nav-item">
-              <Link to="/acercadenosotros" className="nav-link active" aria-current="page">Acerca de Nosotros</Link>
+              <Link to="/info" className="nav-link active" aria-current="page">Acerca de Nosotros</Link>
               </li>
               <li className="nav-item">
               <Link to="/cart" className="nav-link active" aria-current="page">< CartWidget /> 1 </Link>
