@@ -11,7 +11,7 @@ const fetchItems = () => {
         { id: 4, name: 'Netbook', imageUrl: "https://picsum.photos/200", price: 40 },
         { id: 5, name: 'Notebook', imageUrl: "https://picsum.photos/200", price: 50 },
         { id: 6, name: 'Tablet', imageUrl: "https://picsum.photos/200", price: 60 }
-        ]
+      ]
       )
     }, 3000)
   })
@@ -32,15 +32,15 @@ const ItemDetailContainer = () => {
   }, [])
 
   return (
-      <div className="item-list-container">
-        <h1>Bienvenidos a mi tienda OnLine</h1>
-        {
-          loading
-        ? <div> Cargando... </div>
-        :  <ItemList items={items} />
-        }
-      </div>
+    <div className="item-list-container">
+      <h1>Bienvenidos a Digital Emporium</h1>
+      {
+        loading
+          ? <div> Cargando... </div>
+          : <ItemList items={items} />
+      }
+    </div>
   )
 };
-  
-  export default ItemDetailContainer;
+
+export default ItemDetailContainer;
