@@ -1,4 +1,5 @@
 import './Item.css';
+import { NavLink } from 'react-router-dom';
 
 const Item = ({ item }) => {
   return (
@@ -7,6 +8,14 @@ const Item = ({ item }) => {
       <div className="item-details">
         <h3 className="item-name">{item.name}</h3>
         <p className="item-price">Precio: ${item.price}</p>
+        <NavLink
+          to={{
+            pathname: `/product/${item.id}`,
+            state: { item: item }
+          }}
+        >
+          <button> Ver Detalles </button>
+        </NavLink>
       </div>
     </div>
   )

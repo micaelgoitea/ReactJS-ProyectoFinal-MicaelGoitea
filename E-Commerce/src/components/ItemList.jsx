@@ -1,6 +1,7 @@
 import { NavLink } from "react-router-dom";
 import Item from "./ItemDetail";
 import './ItemList.css';
+import Product from "./Product";
 
 const ItemList = ({ items }) => {
   return (
@@ -8,7 +9,11 @@ const ItemList = ({ items }) => {
       <h3>Lista de productos</h3>
       <div className="item-list">
         {items.map(item => (
-          <NavLink to="/product/{item.id}"> <Item key={item.id} item={item} /> </NavLink>
+          <>
+           <Item key={item.id} item={item} />
+            
+          </>
+          
         ))}
       </div>
     </>
