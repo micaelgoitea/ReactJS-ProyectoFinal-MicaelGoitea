@@ -1,0 +1,89 @@
+[
+    {
+        "id": 1,
+        "name": "PC de Escritorio 8GB RAM Core I5 500 GB SSD",
+        "category": "computacion",
+        "imageUrl": "https://http2.mlstatic.com/D_NQ_NP_725359-MLA48853014422_012022-O.webp",
+        "info": "Computadora de Escritorio diseñada para uso Doméstico Simple",
+        "price": "650.000",
+        "modoDePago": "6 Cuotas Fijas sin Interes",
+        "stock": 10
+    },
+    
+    {
+        "id": 2,
+        "name": "PC Gamer 32 GB RAM Core I7 1 TB SSD",
+        "category": "computacion",
+        "imageUrl": "https://http2.mlstatic.com/D_NQ_NP_612434-MLA72459976436_102023-O.webp",
+        "info": "Computadora Gamer para diseño gráfico o jugadores profesionales",
+        "price": "1.200.000",
+        "modoDePago": "6 Cuotas Fijas sin Interes",
+        "stock": 8
+    },
+
+    {
+        "id": 3,
+        "name": "Notebook Dell 4 GB RAM Core I3 250 GB SSD",
+        "category": "computacion",
+        "imageUrl": "https://http2.mlstatic.com/D_NQ_NP_799126-MLA72643885797_112023-O.webp",
+        "info": "Lleva tu PC con vos con la Notebook Dell super cómoda, práctuca y Liviana",
+        "price": "350.000", 
+        "modoDePago": "6 Cuotas Fijas sin Interes",
+        "stock": 9
+    },
+
+    {
+        "id": 4, 
+        "name": "Samsung Galaxy Core Android 5.0",
+        "category": "celulares",
+        "imageUrl": "https://www.tuexperto.com/wp-content/uploads/2015/05/Samsung-Galaxy-Core-Prime-02.jpg",
+        "info": "Lo mejor en SmartPhones lo llevas en tus manos con el nuevo lanzamiento de Samsung",
+        "price": "500.000",
+        "modoDePago": "6 Cuotas Fijas sin Interes",
+        "stock": 8
+    },
+
+    {
+        "id": 5,
+        "name": "iPhone 14 Pro Max Gold 256 GB",
+        "category": "celulares",
+        "imageUrl": "https://acdn.mitiendanube.com/stores/001/321/783/products/31mx9scnezl-_sl500_1-640-0-77f20e2efc4b72394f16790588480866-640-0.jpg",
+        "info": "Lo mejor en celulares inteligentes, fluído, práctico y profesional. Toma fotos como si tuvieras una cámara profesional",
+        "price": "1.500.000",
+        "modoDePago": "6 Cuotas Fijas sin Interes",
+        "stock": 5
+    },
+
+    {
+        "id": 6,
+        "name": "Tablet Galaxy Tab Android 7.0",
+        "category": "tablet",
+        "imageUrl": "https://www.computershopping.com.ar/Images/Productos/Grandes/SM-T113NU_Foto3g.jpg",
+        "info": "Jugá, toma nota, mantenete siempre comunicado con la Galaxy Tab de Samsung",
+        "price": "700.000",
+        "modoDePago": "6 Cuotas Fijas sin Interes",
+        "stock": 5
+    },
+
+    {
+        "id": 7,
+        "name": "Apple Watch",
+        "category": "smartwatch",
+        "imageUrl": "https://i5.walmartimages.com/seo/Pre-Owned-Apple-Watch-Series-5-GPS-Cellular-40mm-Smartwatch_0c5577e4-6591-459f-984e-33ef36a35860_1.3f7551795482100bbadc029e8829cf73.jpeg",
+        "info": "Todo lo que necesitas lo llevas en tu muñeca con un diseño super elegante",
+        "price": "300.000",
+        "modoDePago": "3 Cuotas Fijas sin Interes",
+        "stock": 2
+    },
+
+    {
+        "id": 8, 
+        "name": "Smart Watch Samsung", 
+        "category": "smartwatch",
+        "imageUrl": "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcQhVbSsPEmrNctA7LQu-pQzvF7j0o399Q6Uleqf8vA27g&s",
+        "info": "No sólo te acompaña en el día para saber la hora, hacé mucho mas con el nuevo SmartWatch de Samsung",
+        "price": "250.000",
+        "modoDePago": "3 Cuotas Fijas sin Interes",
+        "stock": 4
+    }
+  ]

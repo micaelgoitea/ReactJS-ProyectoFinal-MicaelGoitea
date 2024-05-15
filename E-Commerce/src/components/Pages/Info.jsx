@@ -1,4 +1,4 @@
-const InfoNosotros = () => {
+const Nosotros = () => {
 
     return (
         <div>
@@ -7,4 +7,4 @@ const InfoNosotros = () => {
     )
 }
 
-export default InfoNosotros;
+export default Nosotros;

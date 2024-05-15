@@ -1,8 +1,14 @@
 h1 {
     padding-top: 2rem;
+    padding-bottom: 2rem;
     padding-left: 2rem;
 }
 
 body {
     background-color: rgb(218, 221, 221);
+}
+
+.item-list-container {
+    padding: 3rem;
+    text-align: center;
 }
