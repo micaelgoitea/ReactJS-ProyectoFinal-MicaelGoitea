@@ -1,0 +1,34 @@
+.item-card {
+  display: flex;
+  flex-direction: column;
+  border: 1px solid #f7ce9c;
+  border-radius: 8px;
+  padding: 16px;
+  margin-bottom: 16px;
+  align-items: center;
+  width: min-content;
+  width: 20rem;
+  background-color: rgb(255, 255, 255);
+}
+
+.item-image {
+  max-width: 15rem;
+  min-width: 15rem;
+  max-height: 15rem;
+  min-height: 15rem;
+  border-radius: 8px;
+  margin-bottom: 8px;
+}
+
+.item-details {
+  display: flex;
+  flex-direction: column;
+}
+
+.item-name {
+  margin-bottom: 8px;
+}
+
+.item-price {
+  font-weight: bold;
+}
