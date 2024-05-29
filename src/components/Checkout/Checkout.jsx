@@ -4,37 +4,46 @@ import { addDoc, collection, getFirestore } from "firebase/firestore";
 import { Link } from "react-router-dom";
 
 const Checkout = () => {
-    const {cart, clear, getTotalProducts, getSumProducts} = useContext(CartContext);
+    const { cart, clear, getTotalProducts, getSumProducts } = useContext(CartContext);
     const [nombre, setNombre] = useState("");
+    const [dni, setDni] = useState("");
     const [email, setEmail] = useState("");
     const [telefono, setTelefono] = useState("");
     const [orderId, setOrderId] = useState("");
     const [nombreError, setNombreError] = useState("");
+    const [dniError, setDniError] = useState("");
     const [emailError, setEmailError] = useState("");
 
     const generarOrden = () => {
         if (nombre == "") {
-            setNombreError("Debe completar el campo Nombre!");
+            setNombreError("Ups! Nos falta tu nombre para generar la Orden");
             return false;
         } else {
             setNombreError("");
         }
 
+        if (dni == "") {
+            setDniError("Ups! Nos falta tu DNI para generar la Orden");
+            return false;
+        } else {
+            setDniError("");
+        }
+
         if (email == "") {
-            setEmailError("Debe completar el campo Email!");
+            setEmailError("Ups! Nos falta tu email para generar la Orden");
             return false;
         } else {
             setEmailError("");
         }
 
-        const buyer = {name:nombre, email:email, telephone:telefono};
-        const items = cart.map(item => ({id:item.id, title:item.name, price:item.price}));
+        const buyer = { name: nombre, dni: dni, email: email, telephone: telefono };
+        const items = cart.map(item => ({ id: item.id, title: item.name, price: item.price }));
         const fecha = new Date();
-        const date = `${fecha.getDate()}-${fecha.getMonth()+1}-${fecha.getFullYear()} ${fecha.getHours()}:${fecha.getMinutes()}:${fecha.getSeconds()}`;
-        const order = {buyer:buyer, items:items, date:date, total:getSumProducts()};
+        const date = `${fecha.getDate()}-${fecha.getMonth() + 1}-${fecha.getFullYear()} ${fecha.getHours()}:${fecha.getMinutes()}:${fecha.getSeconds()}`;
+        const order = { buyer: buyer, items: items, date: date, total: getSumProducts() };
         const db = getFirestore();
         const ordersCollection = collection(db, "orders");
-        
+
         addDoc(ordersCollection, order).then(data => {
             setOrderId(data.id);
             setNombre("");
@@ -43,7 +52,7 @@ const Checkout = () => {
             clear();
         });
     }
-    
+
     if (orderId) {
         return (
             <div className="container my-5">
@@ -55,7 +64,7 @@ const Checkout = () => {
             </div>
         )
     }
-    
+
     if (getTotalProducts() == 0) {
         return (
             <div className="container my-5">
@@ -76,17 +85,22 @@ const Checkout = () => {
                     <form>
                         <div className="mb-3">
                             <label className="form-label">Nombre *</label>
-                            <input type="text" className={`form-control ${nombreError && "is-invalid"}`} onInput={(event) => {setNombre(event.target.value)}} />
+                            <input type="text" className={`form-control ${nombreError && "is-invalid"}`} onInput={(event) => { setNombre(event.target.value) }} />
                             <div className="text-danger">{nombreError}</div>
                         </div>
                         <div className="mb-3">
+                            <label className="form-label">DNI *</label>
+                            <input type="text" className={`form-control ${dniError && "is-invalid"}`} onInput={(event) => { setDni(event.target.value) }} />
+                            <div className="text-danger">{dniError}</div>
+                        </div>
+                        <div className="mb-3">
                             <label className="form-label">Email *</label>
-                            <input type="text" className={`form-control ${emailError && "is-invalid"}`} onInput={(event) => {setEmail(event.target.value)}} />
+                            <input type="text" className={`form-control ${emailError && "is-invalid"}`} onInput={(event) => { setEmail(event.target.value) }} />
                             <div className="text-danger">{emailError}</div>
                         </div>
                         <div className="mb-3">
                             <label className="form-label">Teléfono</label>
-                            <input type="text" className="form-control" onInput={(event) => {setTelefono(event.target.value)}}  />
+                            <input type="text" className="form-control" onInput={(event) => { setTelefono(event.target.value) }} />
                         </div>
                         <p className="mb-3">* Campo obligatorios</p>
                         <button type="button" className="btn bg-light" onClick={generarOrden}>Generar Orden</button>

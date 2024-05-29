@@ -1,8 +1,9 @@
-# React + Vite
+# Coderhouse
+## Curso de React JS
+### Proyecto Final - Digital Emporium
+### Micael Goitea
 
-This template provides a minimal setup to get React working in Vite with HMR and some ESLint rules.
+Este proyecto fue realizado con **VITE** + **React JS** + **Bootstrap** + **CSS**
+> La creación desde cero de mi primer E-Commerce para publicar en la Web de tecnología. En la tienda vas a poder encontrar productos de tecnología como PCs, PCs Gamers, Tablets, SmartWatch, accesorios y mucho Mas.
+> Implementamos una simulación de compra con "Carrito de Compras" y generamos una orden de Compra lista para cada cliente que quiera acceder a alguno de los productos publicados en la tienda. 
 
-Currently, two official plugins are available:
-
-- [@vitejs/plugin-react](https://github.com/vitejs/vite-plugin-react/blob/main/packages/plugin-react/README.md) uses [Babel](https://babeljs.io/) for Fast Refresh
-- [@vitejs/plugin-react-swc](https://github.com/vitejs/vite-plugin-react-swc) uses [SWC](https://swc.rs/) for Fast Refresh

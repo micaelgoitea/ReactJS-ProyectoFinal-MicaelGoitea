@@ -41,7 +41,7 @@ useEffect(() => {
 
 return (
   <div className="item-list-container">
-    <h1>Bienvenidos a Digital Emporium</h1>
+    <img className="img_bienvenidos" src="src\Assets\bienvenidos.png" alt="" />
     {
       loading ? <Loading /> : <ItemList items={items} />
     }
