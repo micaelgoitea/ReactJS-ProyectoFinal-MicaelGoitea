@@ -4,8 +4,8 @@
         "name": "PC de Escritorio 8GB RAM Core I5 500 GB SSD",
         "category": "computacion",
         "imageUrl": "https://http2.mlstatic.com/D_NQ_NP_725359-MLA48853014422_012022-O.webp",
-        "info": "Computadora de Escritorio diseñada para uso Doméstico Simple",
-        "price": "650.000",
+        "info": "Descubre nuestra PC de escritorio diseñada para un rendimiento excepcional. Equipada con un potente procesador, gran capacidad de almacenamiento y gráficos de alta calidad, esta computadora ofrece una experiencia informática sin igual. Ya sea para trabajo, estudio o entretenimiento, esta PC garantiza eficiencia y satisfacción en cada tarea.",
+        "price": 650000,
         "modoDePago": "6 Cuotas Fijas sin Interes",
         "stock": 10
     },
@@ -15,8 +15,8 @@
         "name": "PC Gamer 32 GB RAM Core I7 1 TB SSD",
         "category": "computacion",
         "imageUrl": "https://http2.mlstatic.com/D_NQ_NP_612434-MLA72459976436_102023-O.webp",
-        "info": "Computadora Gamer para diseño gráfico o jugadores profesionales",
-        "price": "1.200.000",
+        "info": "Sumérgete en el mundo del gaming con nuestra PC diseñada para rendimiento extremo. Equipada con un potente procesador, tarjeta gráfica de última generación y amplio almacenamiento, esta máquina ofrece la potencia necesaria para disfrutar de tus juegos favoritos con gráficos impresionantes y una experiencia inmersiva incomparable.",
+        "price": 1200000,
         "modoDePago": "6 Cuotas Fijas sin Interes",
         "stock": 8
     },
@@ -26,8 +26,8 @@
         "name": "Notebook Dell 4 GB RAM Core I3 250 GB SSD",
         "category": "computacion",
         "imageUrl": "https://http2.mlstatic.com/D_NQ_NP_799126-MLA72643885797_112023-O.webp",
-        "info": "Lleva tu PC con vos con la Notebook Dell super cómoda, práctuca y Liviana",
-        "price": "350.000", 
+        "info": "Experimenta la combinación perfecta de rendimiento y portabilidad con la notebook Dell. Diseñada para satisfacer las demandas de tu estilo de vida digital, esta laptop ofrece un potente rendimiento, una pantalla vibrante y una duración de batería excepcional. Haz que cada tarea sea fácil y eficiente, dondequiera que vayas.",
+        "price": 350000, 
         "modoDePago": "6 Cuotas Fijas sin Interes",
         "stock": 9
     },
@@ -37,8 +37,8 @@
         "name": "Samsung Galaxy Core Android 5.0",
         "category": "celulares",
         "imageUrl": "https://www.tuexperto.com/wp-content/uploads/2015/05/Samsung-Galaxy-Core-Prime-02.jpg",
-        "info": "Lo mejor en SmartPhones lo llevas en tus manos con el nuevo lanzamiento de Samsung",
-        "price": "500.000",
+        "info": "Descubre la combinación perfecta de estilo y rendimiento con el Samsung Galaxy Core. Equipado con un potente procesador, una pantalla vibrante y una cámara de alta resolución, este teléfono ofrece una experiencia móvil excepcional. Disfruta de un diseño elegante y funcionalidad avanzada con el Samsung Galaxy Core.",
+        "price": 500000,
         "modoDePago": "6 Cuotas Fijas sin Interes",
         "stock": 8
     },
@@ -48,10 +48,10 @@
         "name": "iPhone 14 Pro Max Gold 256 GB",
         "category": "celulares",
         "imageUrl": "https://acdn.mitiendanube.com/stores/001/321/783/products/31mx9scnezl-_sl500_1-640-0-77f20e2efc4b72394f16790588480866-640-0.jpg",
-        "info": "Lo mejor en celulares inteligentes, fluído, práctico y profesional. Toma fotos como si tuvieras una cámara profesional",
-        "price": "1.500.000",
+        "info": "Experimenta la innovación en su máximo esplendor con el iPhone 14 Pro Max. Equipado con tecnología de vanguardia, una impresionante pantalla Super Retina XDR, un potente chip A16 y un sistema de cámaras avanzado, este dispositivo redefine la excelencia en la telefonía móvil. Descubre un mundo de posibilidades con el iPhone 14 Pro Max.",
+        "price": 1500000,
         "modoDePago": "6 Cuotas Fijas sin Interes",
-        "stock": 5
+        "stock": 6
     },
 
     {
@@ -59,8 +59,8 @@
         "name": "Tablet Galaxy Tab Android 7.0",
         "category": "tablet",
         "imageUrl": "https://www.computershopping.com.ar/Images/Productos/Grandes/SM-T113NU_Foto3g.jpg",
-        "info": "Jugá, toma nota, mantenete siempre comunicado con la Galaxy Tab de Samsung",
-        "price": "700.000",
+        "info": "Descubre la versatilidad en tus manos con la tablet Samsung. Con una pantalla vibrante y nítida, potente rendimiento y una amplia gama de aplicaciones, esta tablet te brinda la libertad de trabajar, jugar y conectarte dondequiera que estés. Experimenta el futuro de la tecnología móvil con Samsung.",
+        "price": 700000,
         "modoDePago": "6 Cuotas Fijas sin Interes",
         "stock": 5
     },
@@ -70,8 +70,8 @@
         "name": "Apple Watch",
         "category": "smartwatch",
         "imageUrl": "https://i5.walmartimages.com/seo/Pre-Owned-Apple-Watch-Series-5-GPS-Cellular-40mm-Smartwatch_0c5577e4-6591-459f-984e-33ef36a35860_1.3f7551795482100bbadc029e8829cf73.jpeg",
-        "info": "Todo lo que necesitas lo llevas en tu muñeca con un diseño super elegante",
-        "price": "300.000",
+        "info": "Únete a la revolución del fitness y la conectividad con el Apple Watch. Con un diseño elegante y funcionalidades avanzadas, como monitorización de la salud, seguimiento de actividad y conectividad celular, este reloj inteligente te mantiene conectado y en forma. Descubre un compañero imprescindible para tu estilo de vida activo con el Apple Watch.",
+        "price": 300000,
         "modoDePago": "3 Cuotas Fijas sin Interes",
         "stock": 2
     },
@@ -81,9 +81,49 @@
         "name": "Smart Watch Samsung", 
         "category": "smartwatch",
         "imageUrl": "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcQhVbSsPEmrNctA7LQu-pQzvF7j0o399Q6Uleqf8vA27g&s",
-        "info": "No sólo te acompaña en el día para saber la hora, hacé mucho mas con el nuevo SmartWatch de Samsung",
-        "price": "250.000",
+        "info": "Explora la fusión perfecta entre estilo y tecnología con el Samsung Smart Watch. Con una pantalla brillante y táctil, seguimiento de actividad física avanzada y conectividad Bluetooth, este reloj inteligente te mantiene conectado y en forma. Descubre una nueva era de conveniencia y funcionalidad con el Samsung Smart Watch.",
+        "price": 250000,
         "modoDePago": "3 Cuotas Fijas sin Interes",
         "stock": 4
+    },
+    {
+        "id": 9,
+        "name": "Mouse Gamer",
+        "category": "accesorios",
+        "imageUrl": "https://spacegamer.com.ar/img/Public/1058-producto-impact-8051.jpg",
+        "info": "Experimenta el control absoluto en cada movimiento con nuestro Mouse Gamer de alta precisión. Diseñado ergonómicamente para largas sesiones de juego, con botones programables y sensibilidad ajustable, este mouse te ofrece una ventaja competitiva. Domina cada juego con precisión y comodidad incomparables con nuestro Mouse Gamer.",
+        "price": 30000,
+        "modoDePago": "3 Cuotas Fijas sin Interes",
+        "stock": 20
+    },
+    {
+        "id": 10,
+        "name": "Teclado Mecanico",
+        "category": "accesorios",
+        "imageUrl": "https://sistema.langtecnologia.com.ar/img/elang/6545/6545_3_1659494678.jpg",
+        "info": "Desata tu potencial gamer con nuestro Teclado Mecánico Gamer de alta gama. Con interruptores mecánicos ultra receptivos, retroiluminación personalizable y teclas programables, este teclado te ofrece una ventaja táctica en cada partida. Experimenta la velocidad, precisión y durabilidad que necesitas para dominar el juego con nuestro Teclado Mecánico Gamer.",
+        "price": 50000,
+        "modoDePago": "3 Cuotas Fijas sin Interes",
+        "stock": 2
+    },
+    {
+        "id": 11,
+        "name": "Mouse Pad",
+        "category": "accesorios",
+        "imageUrl": "https://http2.mlstatic.com/D_NQ_NP_651209-MLA41860551550_052020-O.webp",
+        "info": "Potencia tu juego con nuestro Mouse Pad Gamer de alta calidad. Diseñado con una superficie suave y texturizada para un seguimiento preciso y sin fricciones, este mouse pad ofrece un rendimiento excepcional en cada movimiento. Con dimensiones generosas y base antideslizante, garantiza la estabilidad necesaria para sesiones de juego intensas.",
+        "price": 15000,
+        "modoDePago": "3 Cuotas Fijas sin Interes",
+        "stock": 2
+    },
+    {
+        "id": 12,
+        "name": "Auriculares Regradgon",
+        "category": "accesorios",
+        "imageUrl": "https://www.infopartes.com.ar/18250-large_default/auriculares-gamer-redragon-microfono-pcps4-71-zeus-x-rgb.jpg",
+        "info": "Sumérgete en la experiencia de juego definitiva con nuestros auriculares gamer de alta fidelidad. Equipados con sonido envolvente 7.1, micrófono con cancelación de ruido y comodidad ergonómica, estos auriculares te sumergen en la acción con precisión y claridad excepcionales. Domina cada partida con una ventaja auditiva definitiva.",
+        "price": 65000,
+        "modoDePago": "3 Cuotas Fijas sin Interes",
+        "stock": 2
     }
   ]

@@ -23,10 +23,8 @@ const Navbar = () => {
                   <li className="dropdown-item"><NavLink to="/category/celulares">Celulares</NavLink></li>
                   <li className="dropdown-item"><NavLink to="/category/tablet">Tablet</NavLink></li>
                   <li className="dropdown-item"><NavLink to="/category/smartwatch">SmartWatch</NavLink></li>
+                  <li className="dropdown-item"><NavLink to="/category/accesorios">Accesorios</NavLink></li>
                 </ul>
-              </li>
-              <li className="nav-item">
-                <NavLink to="/ofertas" className="nav-link active" aria-current="page">Ofertas</NavLink>
               </li>
               <li className="nav-item">
                 <NavLink to="/contacto" className="nav-link active" aria-current="page">Contacto</NavLink>
