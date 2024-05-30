@@ -1,5 +1,8 @@
 import React from 'react';
 import './Contacto.css';
+import logo_instagram from "../../Assets/logo-instagram-black.svg";
+import logo_telefono from "../../Assets/logo-telefono-black.svg";
+import logo_email from "../../Assets/logo-email-black.svg";
 
 const Contacto = () => {
     return (
@@ -36,11 +39,11 @@ const Contacto = () => {
                 <div className="col">
                     <div className="contacto-info d-flex justify-content-center flex-column align-items-center mt-4">
                         <h2 className="mt-10 mb-4">Mas información</h2>
-                        <img src="src\Assets\logo-instagram-black.svg" alt="ícono de instagram" />
+                        <img src={logo_instagram} alt="ícono de instagram" />
                         <p>@digitalEmporium</p>
-                        <img src="src\Assets\logo-telefono-black.svg" alt="ícono de teléfono" />
+                        <img src={logo_telefono} alt="ícono de teléfono" />
                         <p>0810-222-6644</p>
-                        <img src="src\Assets\logo-email-black.svg" alt="Ícono de e-mail" />
+                        <img src={logo_email} alt="Ícono de e-mail" />
                         <p>info@digitalemporium.com.ar</p>
                         <p className="m-2">Envianos tu consulta o sugerencia, estamos para ayudarte</p>
                     </div>
