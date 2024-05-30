@@ -3,6 +3,7 @@ import './Contacto.css';
 import logo_instagram from "../../Assets/logo-instagram-black.svg";
 import logo_telefono from "../../Assets/logo-telefono-black.svg";
 import logo_email from "../../Assets/logo-email-black.svg";
+import logoEmpresa from "../../../img/favicon.png";
 
 const Contacto = () => {
     return (
@@ -38,6 +39,7 @@ const Contacto = () => {
                 </div>
                 <div className="col">
                     <div className="contacto-info d-flex justify-content-center flex-column align-items-center mt-4">
+                    <img className='logoEmpresa' src={logoEmpresa} alt="Icono de la empresa" />
                         <h2 className="mt-10 mb-4">Mas información</h2>
                         <img src={logo_instagram} alt="ícono de instagram" />
                         <p>@digitalEmporium</p>
