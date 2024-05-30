@@ -4,6 +4,7 @@ import './ItemListContainer.css';
 import Loading from "../Loading";
 import { useParams } from "react-router-dom";
 import { collection, getDocs, getFirestore, query, where } from "firebase/firestore";
+import img_bienvenidos from "../../Assets/bienvenidos.png";
 
 const ItemListContainer = () => {
   const [items, setItems] = useState([]);
@@ -41,7 +42,7 @@ useEffect(() => {
 
 return (
   <div className="item-list-container">
-    <img className="img_bienvenidos" src="./src\Assets\bienvenidos.png" alt="Imagen de Portada de Inicio" />
+    <img className="img_bienvenidos" src={img_bienvenidos} alt="Imagen de Portada de Inicio" />
     {
       loading ? <Loading /> : <ItemList items={items} />
     }
