@@ -41,7 +41,7 @@ useEffect(() => {
 
 return (
   <div className="item-list-container">
-    <img className="img_bienvenidos" src="src\Assets\bienvenidos.png" alt="Imagen de Portada de Inicio" />
+    <img className="img_bienvenidos" src="/src\Assets\bienvenidos.png" alt="Imagen de Portada de Inicio" />
     {
       loading ? <Loading /> : <ItemList items={items} />
     }
