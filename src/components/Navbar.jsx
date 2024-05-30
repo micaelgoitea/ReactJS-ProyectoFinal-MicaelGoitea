@@ -2,6 +2,7 @@ import React from 'react';
 import CartWidget from "../components/CartWidget";
 import { NavLink } from 'react-router-dom';
 import imglogo from "../../img/logo.png";
+import './Navbar.css';
 
 const Navbar = () => {
   return (
@@ -20,11 +21,11 @@ const Navbar = () => {
               <li className="nav-item dropdown">
                 <NavLink to="/" className="nav-link dropdown-toggle" role="button" data-bs-toggle="dropdown" aria-expanded="false">Productos</NavLink>
                 <ul className="dropdown-menu">
-                  <li className="dropdown-item"><NavLink to="/category/computacion">Computacion</NavLink></li>
-                  <li className="dropdown-item"><NavLink to="/category/celulares">Celulares</NavLink></li>
-                  <li className="dropdown-item"><NavLink to="/category/tablet">Tablet</NavLink></li>
-                  <li className="dropdown-item"><NavLink to="/category/smartwatch">SmartWatch</NavLink></li>
-                  <li className="dropdown-item"><NavLink to="/category/accesorios">Accesorios</NavLink></li>
+                  <li className="dropdown-item"><NavLink to="/category/computacion" style={{color:'grey', textDecoration: 'none'}}>Computacion</NavLink></li>
+                  <li className="dropdown-item"><NavLink to="/category/celulares" style={{color:'grey',textDecoration: 'none'}}>Celulares</NavLink></li>
+                  <li className="dropdown-item"><NavLink to="/category/tablet" style={{color:'grey',textDecoration: 'none'}}>Tablet</NavLink></li>
+                  <li className="dropdown-item"><NavLink to="/category/smartwatch" style={{color:'grey',textDecoration: 'none'}}>SmartWatch</NavLink></li>
+                  <li className="dropdown-item"><NavLink to="/category/accesorios" style={{color:'grey',textDecoration: 'none'}}>Accesorios</NavLink></li>
                 </ul>
               </li>
               <li className="nav-item">
