@@ -8,7 +8,7 @@ const Contacto = () => {
                 <div className="col">
                     <div className="contacto-formulario">
                         <h2>Contáctanos</h2>
-                        <form className="form-contacto" name="formulario-onfit" method="POST">
+                        <form className="form-contacto" method="POST">
                             <div> 
                                 <input style={{ width: "20rem" }} className="text-center rounded mt-4 p-2 border-0 shadow" type="text" id="nombre" name="nombre" required placeholder="Nombre" />
                             </div>
