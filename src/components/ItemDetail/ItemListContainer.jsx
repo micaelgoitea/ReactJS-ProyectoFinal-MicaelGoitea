@@ -42,7 +42,7 @@ useEffect(() => {
 
 return (
   <div className="item-list-container">
-    <img className="img_bienvenidos" src={img_bienvenidos} alt="Imagen de Portada de Inicio" />
+    <img src={img_bienvenidos} className="img-fluid" alt="..."></img>
     {
       loading ? <Loading /> : <ItemList items={items} />
     }
